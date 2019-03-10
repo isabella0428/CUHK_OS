@@ -1,0 +1,38 @@
+argument.sh
+193 chars, 32 words, 13 lines
+arithmetic.sh
+78 chars, 12 words, 6 lines
+array.sh
+246 chars, 34 words, 10 lines
+capture.sh
+193 chars, 31 words, 13 lines
+checkfile.sh
+111 chars, 17 words, 5 lines
+condition.sh
+166 chars, 35 words, 10 lines
+file_displayer.sh
+213 chars, 40 words, 14 lines
+file_summary.sh
+277 chars, 41 words, 12 lines
+forloop.sh
+115 chars, 20 words, 9 lines
+function.sh
+246 chars, 32 words, 17 lines
+ifs.sh
+121 chars, 13 words, 9 lines
+isempty.sh
+210 chars, 35 words, 10 lines
+my_grep.sh
+94 chars, 14 words, 7 lines
+process_csv.sh
+160 chars, 26 words, 4 lines
+string.sh
+259 chars, 39 words, 17 lines
+summary.sh
+377 chars, 39 words, 18 lines
+testdir.sh
+158 chars, 18 words, 9 lines
+variable.sh
+175 chars, 18 words, 10 lines
+whileloop.sh
+79 chars, 13 words, 8 lines
