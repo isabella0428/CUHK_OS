@@ -1,2 +1,2 @@
 # CUHK_OS
-Example Codes and labs of CUHK OS courses
+This is the lab assignments for CSCI 3150: Introduction to Operating Systems
