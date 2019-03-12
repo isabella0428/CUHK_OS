@@ -1,0 +1,51 @@
+.PHONY: clean
+all: main
+
+main:add_int.o multi_int.o main.o
+    gcc add_int.o multi_int.o main.o -o main
+
+add_int.o:add_int.c
+    gcc -c add_int.c
+
+multi_int.o:multi_int.c
+    gcc -c multi_int.c
+
+main.o:main.c
+    gcc -c main.c
+
+clean:
+    rm *.o
+
+/* if there is a clean file in the folder, 
+clean will not be considered as a function.
+We can then place .PHONY: clean at the very beginning of Makefile.
+*/
+
+/* We can also use variables to ease our work. */
+
+/* 
+CC=gcc
+CFLAGS=-Wall -c
+
+all: main
+
+main: add_int.o multi_int.o main.o
+    $(CC) add_int.o multi_int.o main.o -o main
+
+...
+*/
+
+/* implicit rule */
+/* CC=gcc
+CFLAGS=-Wall
+
+EXE=main
+OBJ=add_int.o multi_int.o main.o
+
+all: $(EXE)
+
+main: $(OBJ)
+
+clean:
+        rm -f $(OBJ) $(EXE)
+*/

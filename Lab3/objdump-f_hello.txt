@@ -1,0 +1,7 @@
+/* objdump hello */
+/* Display the contents of the overall file header, 
+information displayed is much simpler than readelf */
+hello:     file format elf64-x86-64
+architecture: i386:x86-64, flags 0x00000150:
+HAS_SYMS, DYNAMIC, D_PAGED
+start address 0x0000000000000530
